@@ -1,1 +1,2 @@
-import ultralytics
+print("hello")
+print("renuierhgu")
