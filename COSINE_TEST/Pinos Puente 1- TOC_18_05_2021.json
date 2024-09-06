@@ -1,0 +1,189 @@
+{
+    "Project Data" :{
+        "Project Key Word:":{
+            "value" :"PFV PINOS PUENTE 1 41MVA 30KV 1250A 30KV 25KA 1s"
+        },
+        "Switchgear Number:":{
+            "value" : "NXPLUS_C-84580"
+        },
+        "No of Typicals":{
+            "value" :""
+        },
+        "SAP Number:": {
+            "value" : ""
+        },
+        "No. Of Panels :":{
+            "value" : 5
+        },
+        "Customer:":{
+            "value" : "BAYWA"
+        },
+        " Detail Design issued for approval: ":{
+            "value": ""
+        },
+        "Days For Approval":{
+            "value": ""
+        },
+        "Add Participants" : {
+            "value1":{
+                "Participant:" : "Ruiz Pinedo, Patricia Isabel",
+                "Contact:" : "Project Manager",
+                "Email Id:" : "patricia.ruiz_pinedo@siemens.com",
+                "Phone:" : ""
+            },
+            "value2":{
+                "Participant:" : "",
+                "Contact:" : "Project Designer",
+                "Email Id:" : "",
+                "Phone:" : ""
+            }
+        }
+    },
+    "Documentation" :{
+        " Please take note of the currently applied versions of CAD packages: " :{
+            "value" : "ELCAD V.7.7.x"
+        },
+        " Documentation can be transferred in the following formats: ":{
+            "value" : ["PDF", "DFX", "DWG"]
+        },
+        " Language of documentation: " :{
+            "value" : "Other language:  Spanish"
+        },
+        "Additional terminals" :{
+            "value" : ""
+        }
+    },
+    "Parameter Setting":{
+        " Parameter settings of protection relays: ":{
+            "value" : "Customer"
+        },
+        " Parameter Settings of bus interface: " :{
+            "value" : ""
+        },
+        "additionalParamSettings":{
+            "value" : ""
+        }
+    },
+    "Wiring Options" :{
+        " CT circuit " :{
+            "value" : "2,5 (Standard)"
+        },
+        " VT circuit ":{
+            "value" : "1,5 (Standard)"
+        },
+        "Control":{
+            "value" :"1,5 (Standard)"
+        },
+        "Bus Wiring":{
+            "value":"2,5 (Standard)"
+        },
+        " Colored Insulation " :{
+            "value" : "Black (Standard)"
+        },
+        " Wire Type ":{
+            "value" : "H05Z-K/H07Z-K (halogen and silicon free, 90 °C)"
+        },
+        "Wire Marking":{
+            "value" :"With"
+        },
+        "Type :":{
+            "value" : "Adhesive White Label"
+        },
+        "Text":{
+            "value" : "Source & Destination (Standard)"
+        },
+        "Panel Nameplate :" :{
+            "value" : "Plastic holder with paper 140 x 55 mm (Standard)"
+        },
+        "Control :":{
+            "value" : "VBSTB4-FS"
+        },
+        "CT terminals:" :{
+            "value":"UT 6-T/SP"
+        },
+        "Earth terminals :":{
+            "value" : "UT 4-PE"
+        },
+        "Bus Wiring terminals:" : {
+            "value" : "UPC3VK"
+        },
+        "Customer requirements for layout and connection of CT terminals :" :{
+            "value" :"No"
+        },
+        "Customer requirements for layout and connection of VT terminals :" :{
+            "value" :""
+        },
+        "Customer requirements for layout and connection of Tripping terminals" :{
+            "value" :""
+        },
+        "Customer requirement for protection of Open Delta winding and connection of damping resistor :" :{
+            "value" :"No"
+        }
+ 
+    },
+    "Auxiliary Voltage" : {
+        " Auxiliary Voltage " : {
+            "value" : ""
+        }
+    },
+    "Overall switchgear interlocking" :{
+        "Overall switchgear interlocking :" :{
+            "value" :"as indicated below:"
+        },
+        "On Load Busbar Transfer:":{
+            "value" : "Not required"
+        },
+        "Load Shedding:":{
+            "value" : "Not Required"
+        },
+        "Others":{
+            "value" : "Detailed description required: "
+        },
+        "Description": {
+            "value" : ""
+        }
+    },
+    "Detailed Description Required" : {
+        "Overall protection functions :" :{
+            "value" : ""
+        }
+    },
+    "Heater and Lighting" :{
+        "LV compartment lighting:":{
+            "value" :"Yes 230V AC"
+        },
+        "LV compartment Heater:":{
+            "value" :"Yes 230V AC"
+        },
+        "CB Mechanism heater":{
+            "value" :"No"
+        },
+        "LV compartment Utility Socket Outlet":{
+            "value" :"Yes Norm of destination country SPAIN"
+        }
+    },
+    "Remote Control" : {
+        "Remote Control" :{
+            "value" : "Yes  with Local / Remote switch conventional switch  (e.g. toggle or key switch) "
+        }
+    },
+    "Typicals Section" :{
+        " Select Typicals ":{
+            "value1" :{
+                "Technical Details for Typical" : "Incomer =HZ02",
+                "Typical Designation" : "",
+                "value" : {
+                    "Additional Earth Switch Functions" : ""
+                }
+            },
+            "value2" :{
+                "Technical Details for Typical" : "Feeder =HZ03 /=HZ04",
+                "Protection Relay" :"according to Browser",
+                "value" : {
+                    "Additional Earth Switch Functions" : "Relay and conventional control (conventional elements operate via relay BOs)",
+                    "Signals From panel" : ["Status indication CB, Isolator, Earth Switch", "MCB Trip", "SF6 Gas Fault", "Protection relay failure", "MCB trip for Control and Protection"]
+                }
+            }
+        }
+    }
+}
