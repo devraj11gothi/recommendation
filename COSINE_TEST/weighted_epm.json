@@ -1,0 +1,53 @@
+{
+	"operation": "insert",
+	"query": {
+		"EPMName": "weighted_cstics",
+		"FilterJson": {
+			"accepted_cstic": [{
+					"description": "TYZ:PANELBOARD",
+					"CSTIC": [
+						["A7JPB_GND_CONN_OPTIONS", 1],
+						["A7JPB_ENCLOSURE_TYPE", 1],
+						["A7JPB_SYSTEM_IR", 1],
+						["A7JPB_TRIM_MOUNTING", 1],
+						["A7JPB_GROUND_CONNECTOR", 1],
+						["A7JPB_LIGHTING_PANEL", 1],
+						["A7JPB_SYSTEM_VOLTAGE", 1],
+						["A7J_DESIGNATION", 1],
+						["A7JPB_FEED", 1]
+					]
+
+				},
+
+				{
+
+					"description": "TYZ:PB_MAINS",
+
+					"CSTIC": [
+						["A7JPB_CHAR_AMP_MB", 1],
+						["A7JPB_PANEL_CONFIGURATION2", 1],
+						["A7JPB_VL_MCCB_TRIP_AMPERAGE", 1]
+					]
+
+				},
+
+				{
+
+					"description": "TYZ:PB_VL_MCCB",
+
+					"CSTIC": [
+						["A7JPB_VL_MCCB_POLES", 1],
+						["PLACING_COUNT", 1],
+						["A7JPB_VL_MCCB_TRIP_AMPERAGE", 1]
+					]
+
+				}
+
+
+			]
+
+		}
+
+	}
+
+}
